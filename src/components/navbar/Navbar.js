@@ -32,11 +32,12 @@ function Navbar() {
           {/* Mobile Logo and Close menu icon */}
           <section className="d-flex w-sm-100 justify-content-between mb-5">
             <Link to="#">
-              <img
+              {/* <img
                 className="mobileNavLogo"
                 src={BrandLogo}
                 alt="Omove brand logo"
-              />
+              /> */}
+              Kbcabs
             </Link>
             <BsXLg className="closeMenu " onClick={ShowNavbar} />
           </section>
